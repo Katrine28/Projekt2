@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+}
+
+/*HEADER*/
+.site-header {
+    background-color:rgb(55, 0, 55);
+    display: flex;
+    align-items: center;
+     height: 4em;
+     padding: 0 1em;
+}
+
+.in-header {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+}
+
+/*Main*/
+
+.start-page {
+    display: grid;
+}
+
+.start-page img, .text {
+   grid-area: 1 / 1;
+}
+
+.start-page img {
+    width: 100%;
+    height: auto;
+}
+
+.text h1 {
+    align-self:center;
+    justify-self: flex-start;
+    text-align:flex-start;
+    place-self: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color:black;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+.text h2 {
+    margin: 0 100px 30px 100px;
+    place-self: center;
+    color: rgb(0, 0, 51);
+    font-size: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text a img {
+    display:block;
+    place-self: center;
+    height: auto;
+    width: 400px;  
+}
+
+.text a:hover img {
+    opacity: 0.8;
+}
+
+/*BILLEDER MED ALDER*/
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 48);
+    font-size: 55px;
+    margin-top: 50px;
+}
+
+.sektion-forside {
+    background-color: grey;
+
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 48);
+    font-size: 55px;
+
+}
+
+.lilla-tekst {
+    color:purple;
+}
+
+.orange-tekst {
+    color: orange;
+}
+
+.forside-billeder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px
+}
+
+.forside-billeder img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
