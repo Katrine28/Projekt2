@@ -46,11 +46,11 @@ body {
 /*Main*/
 
 .start-page {
-    display: grid;
+    display: grid; 
 }
 
 .start-page img, .text {
-   grid-area: 1 / 1;
+   grid-area: 1 / 1; 
 }
 
 .start-page img {
@@ -62,21 +62,9 @@ body {
     padding-top: 200px;
 }
 
-.text h1 {
-    align-self:center;
-    justify-self: flex-start;
-    text-align:flex-start;
-    place-self: center;
-    margin-top: 60px;
-    margin-bottom: 50px;
-    color:#00203C;
-    font-size: 50px;
-    font-family: "Orbitron", sans-serif;
-}
 
 .text h1{
     margin: 0 100px 30px 100px;
-    place-self: center;
     color:#00203C;
     font-size: 60px;
     font-family: "Orbitron", sans-serif;
